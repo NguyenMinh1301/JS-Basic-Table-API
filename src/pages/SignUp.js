@@ -1,8 +1,10 @@
 import { Header } from "../components/Header";
 
-export const Login = () => {
+export const SignUp = () => {
     return /*html*/ `
       ${Header()}
-      <h1> Login Page </h1>
+      <h1> SignUp Page </h1>
     `;
   };
+  
+  
