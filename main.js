@@ -5,6 +5,8 @@ import { NotFoundPage } from './src/pages/NotFound';
 import { SignUp } from './src/pages/SignUp';
 import './style.css'
 import Navigo from 'navigo';
+import "./node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+import "./node_modules/bootstrap/dist/css/bootstrap";
 
 const router = new Navigo("/", {
   linksSelector: "a"
