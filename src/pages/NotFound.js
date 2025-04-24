@@ -2,7 +2,7 @@ import { Footer } from "../components/Footer"
 import { Header } from "../components/Header"
 
 export const NotFoundPage = () => {
-    return /*html*/ `
+  return /*html*/ `
       ${Header()}
       <div class="container">
         <h1> Không tìm thấy đường dẫn </h1>
@@ -10,4 +10,4 @@ export const NotFoundPage = () => {
       </div>
       ${Footer()}
     `
-  }
+}

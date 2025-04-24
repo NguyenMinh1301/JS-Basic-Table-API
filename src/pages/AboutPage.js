@@ -2,7 +2,7 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 
 export const AboutPage = () => {
-    return /*html*/ `
+  return /*html*/ `
     ${Header()}
     <div class="container">
       <h1> About Page </h1>
@@ -10,4 +10,4 @@ export const AboutPage = () => {
       
     ${Footer()}
     `;
-  };
+};

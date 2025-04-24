@@ -1,5 +1,5 @@
 export const Header = () => {
-    return /*html*/ `
+  return /*html*/ `
     <header>
       <ul class="nav">
         <li class="nav-item"><a href="/">Home</a></li>
