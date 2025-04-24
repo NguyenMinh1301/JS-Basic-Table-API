@@ -28,12 +28,14 @@ router.on("/", () => render(app, HomePage), {
         const contnetHTML = products
           .map((product) => {
             return /*html*/ `
-          <div class="product-card">
-            <img src="${product.thumbnail}" />
-            <div class="product-info">
-              <h3>${product.title}</h3>
-              <p>Price: ${product.price}</p>
-              <span>${product.description}</span>
+          <div class="product-grid">
+            <div class="product-card">
+              <img src="${product.thumbnail}" />
+              <div class="product-info">
+                <h3>${product.title}</h3>
+                <p>Price: ${product.price}</p>
+                <span>${product.description}</span>
+              </div>
             </div>
           </div>
         `;

@@ -7,7 +7,7 @@ export const HomePage = () => {
       <div class="container">
         <h1>Best selling</h1>
         <div class="product-list">
-
+          
         </div>
       </div>
       ${Footer()}
