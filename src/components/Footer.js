@@ -1,8 +1,8 @@
 export const Footer = () => {
     return /*html*/ `
     <footer>
-        Bản quyền thuộc về NguyenMinh1301
+        <p>This is just for fun :></p>
+        <p>NguyenMinh1301</p>
     </footer>
     `
-
 }

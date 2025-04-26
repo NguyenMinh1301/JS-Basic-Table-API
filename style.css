@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+:root {
+  --primary: #ff4757;
+  --surface: #ffffff;
+  --border: #e5e7eb;
+  --text: #222;
+  --muted: #555;
+}
+
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -68,14 +76,6 @@ header {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
   padding: 2rem 0;
-}
-
-:root {
-  --primary: #ff4757;
-  --surface: #ffffff;
-  --border: #e5e7eb;
-  --text: #222;
-  --muted: #555;
 }
 
 .product-card {
@@ -143,8 +143,6 @@ header {
 
 footer {
   width: 100%;
-  position: fixed;
-  bottom: 0;
   background: #222;
   color: #f1f1f1;
   text-align: center;
