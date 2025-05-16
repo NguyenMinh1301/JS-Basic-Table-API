@@ -4,7 +4,7 @@ A lightweight, beginner‑friendly project created while I learn the fundamental
 
 ---
 
-## ✨ Why This Exists
+## Why This Exists
 I wanted a simple playground to practise:
 
 * **Vanilla JavaScript** (no frameworks)
@@ -16,7 +16,7 @@ If you are also starting out with JS, feel free to poke around and learn with me
 
 ---
 
-## 🚀 Features
+## Features
 | # | Feature | Description |
 |---|---------|-------------|
 | 1 | **Small JSON API** | Pulls mock or public‑demo data (e.g. users, posts) via `fetch()` |
@@ -26,13 +26,13 @@ If you are also starting out with JS, feel free to poke around and learn with me
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 * **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 * **Dev Tools:** Node.js ≥ 18, npm, [live‑server](https://www.npmjs.com/package/live-server) for hot reload
 
 ---
 
-## 🔧 Getting Started
+## Getting Started
 
 ### Prerequisites
 * [Node.js](https://nodejs.org/) (the LTS version is fine)
@@ -55,40 +55,10 @@ Then open `http://localhost:3000` (or the port shown) in your browser.
 
 ---
 
-## 📂 Project Structure
-```
-├── public/
-│   ├── index.html         # Main page with empty <table>
-│   └── styles.css         # Minimal styling
-├── src/
-│   ├── api.js             # JSON endpoint & fetch helper
-│   ├── table.js           # Build & populate the table
-│   └── main.js            # Entry point tying everything together
-├── package.json           # Scripts & live‑server config
-└── README.md              # You’re reading it!
-```
-
----
-
-## 🏃‍♂️ Usage
+## Usage
 1. **Choose an API:** Open `src/api.js` and set `const API_URL` to any small JSON endpoint you like (e.g. `https://jsonplaceholder.typicode.com/users`).
 2. **Map Columns:** Edit `src/table.js` to match the fields you want displayed.
 3. **Run** `npm start`, refresh the browser, and watch the table fill itself.
-
----
-
-## 📚 What I’m Learning
-* The request‑response cycle in browsers
-* Parsing and validating JSON
-* Efficiently updating the DOM
-* Keeping code readable & well‑commented
-
-I’ll keep pushing small improvements as I learn more.
-
----
-
-## 🤝 Contributing
-This is purely an educational sandbox, but PRs or suggestions are welcome—especially if they help beginners understand JS better.
 
 ---
 
